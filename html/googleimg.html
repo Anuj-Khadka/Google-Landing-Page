@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Images</title>
+    <script src="https://kit.fontawesome.com/a538d60954.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/googleimg.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="google.html">Go To Google</a></li>
+        </ul>
+    </nav>
+
+    <section class="container">
+        <div class="logo">
+            <img src="/img/google.png" alt="google" id="google">
+            <span class="img-text">images</span>
+        </div>
+    </section>
+
+    <form action="https://www.google.com/search">
+        <div class="inform">
+            <div class="sizing">
+                <div class="text-bar">
+                    <div class="covering">
+                        <div class="search">
+                            <div class="inner-search">
+                                <label for=search class=span>
+                                    <i class="fa fa-search"></i>
+                                </label>
+                                <!-- <input type="submit" value="" id=search> -->
+                            </div>
+                        </div>
+                        <div class="text">
+                            <div class="text-inner"></div>
+                            <input type="hidden" name="tbm" value='isch'>
+                            <input type="text" name="q" id="text-field" maxlength="2048" autocomplete="off"
+                                autocapitalize="off" autocorrect="on">
+                        </div>
+                        <div class="search" id=right-search>
+                            <div class="inner-search">
+                                <label for=search class=span>
+                                    <i class="fa fa-search"></i>
+                                </label>
+                                <input type="submit" value="" id=search>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Google Search" id=first>
+                </div>
+            </div>
+
+    </form>
+</body>
+</html>
